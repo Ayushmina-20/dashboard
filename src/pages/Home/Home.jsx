@@ -23,7 +23,7 @@ const Home = () => {
   const [checkedCategoryList, setCheckedCategoryList] = useState([]);
   const [charData, setChartData] = useState([]);
   const [categories, setCategories] = useState([]);
-  const [company, setCompany] = useState();
+  const [company, setCompany] = useState("");
   const [catdata, setCatdata] = useState([]);
   console.log(company);
 
